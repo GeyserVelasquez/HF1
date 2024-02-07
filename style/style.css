@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #9CA7FF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5661BD;
+    width: 30vw;
+    height: 100vh;
+    min-width: 400px;
+}
+
+h1 {
+    margin-bottom: 10%;
+    color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  margin: 10%;
+  color: #ffffff;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form {
+    width: 17.5vw;
+    margin-left: 5%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.boton{
+    background-color: #E9EBFF;
+
+    border-style: none;
+    border-radius: 10px;
+
+    margin: 5%;
+    width: 100%;
+    height: 50px;
+
+    padding: 1%;
+
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+
+    transition: 0.25s linear;
+}
+
+.datos:focus{
+  background-color: #9CA7FF;
+  /* box-shadow: 0 10px 10px rgba(52, 152, 219, 0.25);  */
+  outline: none;
+  color: #ffffff;
+}
+
+select {
+  list-style-type:square;
+  -webkit-appearance: none; /* Para navegadores basados en WebKit */
+  -moz-appearance: none; /* Para navegadores basados en Gecko */
+  appearance: none; /* Para otros navegadores */
+}
+
+
+form input[type="submit"] {
+  font-size: medium;
+  background-color: #15207B;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  outline: none;
+  transition: 0.25s linear;
+}
+
+#logout {
+  font-size: medium;
+  background-color: #15207B;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  outline: none;
+  transition: 0.25s linear;
+}
+
+form input[type="submit"]:hover{
+  background-color: #2435D1;
+}
+
+form input[type="submit"]:focus{
+  background-color: #451cce;
+}
+
+form input[type="submit"]:active{
+  background-color: #b6bdff;
+  color: #15207B;
+}
+
+.etiqueta{
+    margin: 5% 0 0 5%;
+}
+
+a {
+  text-decoration: none; /* Elimina el subrayado */
+  color: inherit; /* Hereda el color del texto */
+  transition: 0.25s linear;
+  outline: none;
+}
+
+
+a:hover{
+  color: #9CA7FF;
+}
+
+a:active{
+  color: #9CA7FF;
+}
+
+@media (max-width: 600px){
+  main{
+    width: 100vw;
+  }
+  input{
+    width: 25vw;
+  }
+}
+
